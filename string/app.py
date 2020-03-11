@@ -1,24 +1,7 @@
-course = 'Python for Beginners'
-course_01 = "Python's course for Beginners"
-msg = """Python's course for Beginners
+first = 'rami'
+last = 'mhanna'
 
-Hi Rami, 
-This is your first Paragraph
-
-best regards 
-
-"""
-
-print(course)
-print(course_01)
+message = first + ' [' + last + '] is a coder'
+msg = f'{first} [{last}] is a coder'
+print(message)
 print(msg)
-
-print(course_01[2])
-print(course_01[-1])
-print(course_01[0:6])
-print(course_01[0:])
-print(course_01[:8])
-
-
-name = 'Jennifer'
-print(name[1:-1])
