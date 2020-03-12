@@ -1,22 +1,10 @@
-t = int(input("Temperature:"))
-if t > 28:
-    is_hot = True
-    is_cold = False
+price = 1000000
 
-elif t < 20:
-    is_hot = False
-    is_cold = True
+has_good_credit = False 
 
+if has_good_credit:
+    down_payment = 0.1 * price
 else:
-    is_hot = False
-    is_cold = False
+    down_payment = 0.2 * price
 
-if is_hot:
-    print("It's a hot day")
-    print("Drink plenty of water")
-elif is_cold:
-    print("It's a cold day")
-    print("Wear warm clothes")
-else:
-    print("It's a lovely day")
-
+print(price - down_payment)
