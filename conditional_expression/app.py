@@ -1,20 +1,7 @@
-price = 1000000
+# Comparing
+t = int(input("Enter the Temperature"))
 
-has_good_credit = True
-
-if has_good_credit:
-    down_payment = 0.1 * price
+if t > 30:
+    print("It's a hot day")
 else:
-    down_payment = 0.2 * price
-
-print(price - down_payment)
-###########################################
-has_high_income = True
-
-if has_high_income and has_good_credit:
-    print("Eligible for loan")
-
-if has_high_income or has_good_credit:
-    print("Eligible for loan!!")
-
-
+    print("It's not a hot day")
