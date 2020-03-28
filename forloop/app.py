@@ -20,13 +20,10 @@ print(nums)
 print(nums_2)
 print("_" * 20)
 
-list_1 = [4, 6, 7, 2, 7, 4, 3, 6, 3, 30]
-list_2 = list_1.copy()
-print(list_2)
-for i in range(len(list_1)):
-    x = list_1[i]
-    for item in list_1[i+1:]:
-        if x == item:
-            print(x)
-            list_2.remove(item)
+list_1 = [4, 6, 7, 2, 7, 4, 3, 6, 3, 7, 30]
+print(list_1)
+list_2 = []
+for number in list_1:
+    if number not in list_2:
+        list_2.append(number)
 print(list_2)
