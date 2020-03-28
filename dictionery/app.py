@@ -31,7 +31,10 @@ digits = {
 output = ""
 INPUT = input("Phone:")
 for digit in INPUT:
-    output += digits[digit]
+    output += digits.get(digit)
     output += "  "
 
 print(f"The written number is: {output}")
+
+
+print("_" * 130)
