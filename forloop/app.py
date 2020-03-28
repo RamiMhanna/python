@@ -1,5 +1,5 @@
-for item  in ["Rami", "Amin", 5]:
-    print(item)
-for num in range(0, 11, 2):
-    print(num)
-
+prices = [10, 20, 30]
+total = 0
+for price in prices:
+    total += price
+print(f"Total is : {total}")
