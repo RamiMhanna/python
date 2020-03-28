@@ -1,6 +1,7 @@
-def greet_user():
-    print("Hi there !")
+def greet_user(name):
+    print(f"Hi {name} !")
     print("welcome aboard")
 
 
-greet_user()
+name = input("Enter your name")
+greet_user(name)
