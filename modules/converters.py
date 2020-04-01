@@ -1,7 +1,8 @@
-def lbs_to_kg(weight):
-    return weight * 0.45
+def maax(numbers):
+    biggest = numbers[0]
+    for number in numbers:
+        if number > biggest:
+            biggest = number
 
-
-def kg_to_lbs(weight):
-    return weight / 0.45
+    return biggest
 

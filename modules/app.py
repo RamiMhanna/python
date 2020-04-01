@@ -1,6 +1,11 @@
-import converters
-from converters import kg_to_lbs
+from converters import maax
 
-x = int(input("Enter the Weight in KG"))
-print(f"{kg_to_lbs(x)}")
-print(f"{converters.kg_to_lbs(x)}")
+numbers = []
+n = 0
+while n < 5:
+    x = int(input("Enter the numbers > "))
+    numbers.append(x)
+    n += 1
+
+print(f"The list is: {numbers}")
+print(f"the max in the list is: {maax(numbers)}")
