@@ -1,25 +1,11 @@
-# Numbers
-# Strings
-# Booleans
-# ---------
-# Lists
-# Dictionaries
-# ---------
-# Classes
+class Person:
+    def __init__(self, name):
+        self.name = name
 
-class Point:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-
-    def move(self):
-        print("move")
-
-    def draw(self):
-        print("draw")
+    def talk(self):
+        print(f"Hello, I am  {self.name}")
 
 
-point = Point(10, 20)
-print(point.x)
-point.x = 50
-print(point.x)
+user_input = input("Enter your name please >")
+person = Person(input)
+person.talk()
