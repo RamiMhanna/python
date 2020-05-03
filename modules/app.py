@@ -1,3 +1,7 @@
-from packages.shipping import calc_shipping
+import random
+for i in range(3):
+    print(random.random())
+    print(random.randint(10, 20))
 
-calc_shipping()
+
+
